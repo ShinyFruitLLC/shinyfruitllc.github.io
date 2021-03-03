@@ -80,7 +80,7 @@ p {
 /*Header*/
 
 .header {
-    height: 600px;
+    /*height: 400px;*/
     width: 100%;
     padding: 30px 0 30px;
     margin-top: 50px;
@@ -92,8 +92,8 @@ p {
 }
 
 .header img{
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     margin: 40px 0 0 40px;
 }
 
@@ -156,6 +156,7 @@ p {
     text-align: center;
     opacity: 0;
     transition: all 200ms ease-in;
+    background-color: #ffcc00;
 
 }
 
@@ -192,13 +193,15 @@ p {
 }
 
 
+
+
 .services i {
     height: 80px;
     width: 80px;
     font-size: 30px;
     padding: 25px 20px;
     border-radius: 50%;
-    background-color: #6699cc;
+    background-color: #00dd00;
     color: white;
 }
 
@@ -275,6 +278,7 @@ p {
 .team {
     padding: 50px 0 80px;
     text-align: center;
+    background-color: #00dd00;
 
 }
 
@@ -347,7 +351,7 @@ p {
 .contact {
     padding: 50px 0 80px;
     text-align: center;
-
+    background-color: orange;
 }
 
 .contact p{
@@ -440,4 +444,72 @@ p {
 .address .fa-home{
  float: left;
   display: block;
+}
+
+
+
+
+/*------------------------ new site ------------------------------*/
+
+/*pricing*/
+
+.games {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #ffb989;
+
+}
+
+.games h2,
+.games p {
+    color: #fff;
+
+}
+
+.games p{
+    padding-bottom: 40px;
+}
+
+.games .game{
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.game li{
+    display: block;
+    padding: 5px;
+}
+.game h4,
+.game h1,
+.game b{
+    color: #4c4c4c;
+}
+
+.game p,
+.game li{
+    color: #737373;
+}
+
+.game button{
+    margin-top: 10px;
+}
+
+.game img {
+    width: 75%;
+    height: 75%;
+    margin: 20px 20px 20px 20px;
+}
+
+@media(max-width:768px){
+    .games {
+        padding 30px;
+    }
+
+    .game {
+        width: 80%;
+        margin-left: 25px;
+    }
 }
